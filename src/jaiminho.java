@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class jaiminho {
+public class uri1916 {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
@@ -12,7 +12,7 @@ public class jaiminho {
 			Integer N = Integer.parseInt(scanner.nextLine());
 			PontoDiario[] pontos = new PontoDiario[N];
 
-			// loop sobre a quantidade de pontos di·rios sobre cada entrada
+			// loop sobre a quantidade de pontos di√°rios sobre cada entrada
 			for (int j = 0; j < N; j++) {
 				String ponto = scanner.nextLine();
 				String[] entradas = ponto.split(" ");
@@ -33,12 +33,12 @@ public class jaiminho {
 			}
 			respostas[i] = PontoDiario.converteMinutoHora(saldoHoras);
 		}
-		// este nao precisa saber posiÁao
+		// este nao precisa saber posi√ßao
 		// somente varre o vetor
 		for (String resposta : respostas) {
 			System.out.println(resposta);
 			// mesma coisa de for(int i =0; i<respostas.length; i++)porem esse
-			// varre o vetor e dar posiÁao
+			// varre o vetor e dar posi√ßao
 		}
 	}
 }
